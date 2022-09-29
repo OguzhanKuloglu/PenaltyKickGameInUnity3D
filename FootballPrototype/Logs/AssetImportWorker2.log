@@ -1,0 +1,278 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F2081)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53925
+Successfully changed project path to: /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype
+/Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56974
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000484 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 105.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1336ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (1020ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (239ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (239ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2885ms)
+		BeginReloadAssembly (397ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (150ms)
+		EndReloadAssembly (2149ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1452ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1104ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (72.9 KB). Loaded Objects now: 3970.
+Memory consumption went from 261.2 MB to 261.1 MB.
+Total: 4.070750 ms (FindLiveObjects: 0.239750 ms CreateObjectMapping: 0.077125 ms MarkObjects: 3.626709 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54349.503894 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_Tornado_Straight.prefab
+  artifactKey: Guid(b15ae0f5aa999af408e768cdbaafeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_Tornado_Straight.prefab using Guid(b15ae0f5aa999af408e768cdbaafeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1c486d5bfa0e27c507e11d6ddd875e') in 1.108663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.900789 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_SpikyAura_Sphere.prefab
+  artifactKey: Guid(9a533326c4ce3754290d43b885745589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_SpikyAura_Sphere.prefab using Guid(9a533326c4ce3754290d43b885745589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8528a5de52873403a5e4985a8ef56a43') in 0.025543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.916345 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosion.prefab
+  artifactKey: Guid(646d8ce832714ff4d9fb29973186759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmokeExplosion.prefab using Guid(646d8ce832714ff4d9fb29973186759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80c3c65ad6d2d82e1bcb3fbd6e979e4') in 0.018800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.213448 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosion.prefab
+  artifactKey: Guid(7e60b394ca1a53242bdbce72432ccafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_SmallExplosion.prefab using Guid(7e60b394ca1a53242bdbce72432ccafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe9a766e859ce4c0b85268cdfac9d7') in 0.015006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.813992 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_GroundExplosion+Text.prefab
+  artifactKey: Guid(bf0cb5908319dfc4c9fad7608681ad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_GroundExplosion+Text.prefab using Guid(bf0cb5908319dfc4c9fad7608681ad9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89b078daafd9d931e85ca20131855d8') in 0.016421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.138160 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/CFXM_Hit_C White.prefab
+  artifactKey: Guid(3d84922c38d7c444782fb1a791d97b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/CFXM_Hit_C White.prefab using Guid(3d84922c38d7c444782fb1a791d97b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5152df96a11a2a71b3d67477a1ac3eb6') in 0.009115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.132220 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/Color Variants
+  artifactKey: Guid(c333b80bc7b953c4bafcef3080787dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/Color Variants using Guid(c333b80bc7b953c4bafcef3080787dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db91a8c6dc883d7e2f378f16d793bb7') in 0.001232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.320831 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/Color Variants/CFXM_Hit_B Yellow.prefab
+  artifactKey: Guid(34d11e2c6a3a8914195e24d6fa5fd343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/Color Variants/CFXM_Hit_B Yellow.prefab using Guid(34d11e2c6a3a8914195e24d6fa5fd343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784a8b74b7d740ebac701321e457f4b2') in 0.010744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936637 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/Color Variants/CFXM_Hit_B Rainbow.prefab
+  artifactKey: Guid(fd1768c372a4bef42bf4b7d512c25f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Hits/Color Variants/CFXM_Hit_B Rainbow.prefab using Guid(fd1768c372a4bef42bf4b7d512c25f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dee84824c620428e1c86c57ddb07be') in 0.008465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.968653 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Wham Ground.prefab
+  artifactKey: Guid(cc4e5a81b24417146b2e3b6e5e2556ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Wham Ground.prefab using Guid(cc4e5a81b24417146b2e3b6e5e2556ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbf37adcc6dcb6f8be7f20b7a154b1d') in 0.038724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001750 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Splash.prefab
+  artifactKey: Guid(f3fc909c07627e444b24a46ffb756896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Splash.prefab using Guid(f3fc909c07627e444b24a46ffb756896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ba784b3b84545b8647e6df6cb91710') in 0.008232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.089729 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Text_Splash.tga
+  artifactKey: Guid(e8f0c517f2b7bc248b5e3bd999cfe107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Textures (Mobile)/CFXM_T_Text_Splash.tga using Guid(e8f0c517f2b7bc248b5e3bd999cfe107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6929bf2aa32726b8de06560402b099f4') in 0.619901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601072 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Zap.prefab
+  artifactKey: Guid(043e2bfcd77102d42aaed7d26208a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Zap.prefab using Guid(043e2bfcd77102d42aaed7d26208a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4dbc0260519eb9a213c3a673f75edc') in 0.027339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.229892 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Wooosh Ground.prefab
+  artifactKey: Guid(3c35b5eb17f3e6b4b8be5f1939786552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Wooosh Ground.prefab using Guid(3c35b5eb17f3e6b4b8be5f1939786552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6df6892f1f732c2865a456ae44505a') in 0.008141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.987406 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Wham.prefab
+  artifactKey: Guid(3b80abc05ac685f47ad2c0ee1a0f799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Wham.prefab using Guid(3b80abc05ac685f47ad2c0ee1a0f799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fd2197908348ccb472eec90977abfe') in 0.009109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.634321 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Poof.prefab
+  artifactKey: Guid(7db68de4b8cbe93479ee6b7cdbe6d648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Poof.prefab using Guid(7db68de4b8cbe93479ee6b7cdbe6d648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9bec72139a515e79e5753f3b9a4e4b') in 0.007753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.825028 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Hit Random.prefab
+  artifactKey: Guid(fb359628d73769a4bb802088b5add4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Hit Random.prefab using Guid(fb359628d73769a4bb802088b5add4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb217fd82be0bd693fd4ab6b04477ef') in 0.007878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.411093 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Boom.prefab
+  artifactKey: Guid(455de4a0693e959478edd9c785880735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Texts (drag-drop to prefabs)/CFXM_Text Boom.prefab using Guid(455de4a0693e959478edd9c785880735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01a2a1fc6960fdcdb525b6734d54287') in 0.013525 seconds 
