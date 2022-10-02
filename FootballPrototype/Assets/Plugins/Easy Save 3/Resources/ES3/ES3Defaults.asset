@@ -30,7 +30,12 @@ MonoBehaviour:
     serializationDepthLimit: 64
     assemblyNames:
     - Assembly-CSharp-firstpass
+    - Cinemachine
+    - CFXRDemo
     - Assembly-CSharp
+    - CFXRRuntime
+    - CFXREditor
+    - CFXRDemoEditor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

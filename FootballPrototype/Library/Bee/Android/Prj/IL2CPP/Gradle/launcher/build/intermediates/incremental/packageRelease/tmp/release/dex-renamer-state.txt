@@ -1,0 +1,4 @@
+#Sat Oct 01 22:24:03 CEST 2022
+base.0=/Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

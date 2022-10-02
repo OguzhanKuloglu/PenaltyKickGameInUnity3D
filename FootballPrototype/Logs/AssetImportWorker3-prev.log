@@ -22,7 +22,7 @@ AssetImportWorker3
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55451
+53925
 Successfully changed project path to: /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype
 /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/oguzhan/Desktop/azerionassignment/P
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,94 +69,94 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56755
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001195 seconds.
+Registered in 0.004586 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 103.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 110.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.845 seconds
+- Completed reload, in  1.804 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1847ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (1807ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1285ms)
-			LoadAssemblies (275ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1341ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (977ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (1023ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (238ms)
+				InitializePlatformSupportModulesInManaged (233ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (231ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (239ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (5ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005499 seconds.
+Registered in 0.005335 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/oguzhan/Desktop/azerionassignment/PenaltyKickGameInUnity3D/FootballPrototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.911 seconds
+- Completed reload, in  2.863 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2913ms)
-		BeginReloadAssembly (435ms)
+	ReloadAssembly (2865ms)
+		BeginReloadAssembly (390ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (47ms)
+			DisableScriptedObjects (40ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (2218ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (150ms)
+		EndReloadAssembly (2136ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1580ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1431ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (81ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (1213ms)
-				ProcessInitializeOnLoadMethodAttributes (131ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (1110ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.55 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (145.5 KB). Loaded Objects now: 3908.
-Memory consumption went from 256.4 MB to 256.3 MB.
-Total: 4.072167 ms (FindLiveObjects: 0.351667 ms CreateObjectMapping: 0.074834 ms MarkObjects: 3.469958 ms  DeleteObjects: 0.174917 ms)
+Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (72.9 KB). Loaded Objects now: 3970.
+Memory consumption went from 261.1 MB to 261.0 MB.
+Total: 4.473125 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.072208 ms MarkObjects: 4.017334 ms  DeleteObjects: 0.111166 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,3 +168,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54331.457325 seconds.
+  path: Assets/_FootballPrototype/Vfx
+  artifactKey: Guid(22550cd5b2cdd40e19f0a7c4b83c6c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FootballPrototype/Vfx using Guid(22550cd5b2cdd40e19f0a7c4b83c6c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510ca9519d1ae04b3de52d681c6c7e14') in 0.010223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.299531 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_Tornado.mat
+  artifactKey: Guid(b7fc2aab7abb6594288ae9541cc0a9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_Tornado.mat using Guid(b7fc2aab7abb6594288ae9541cc0a9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43a14328717b9e0d164d719b671512f') in 0.834536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.871061 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_Smoke_4frms.mat
+  artifactKey: Guid(0d7928d671ec5d4468a8171667aebf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_Smoke_4frms.mat using Guid(0d7928d671ec5d4468a8171667aebf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3359f8826b37d9f282de79ec2dca146e') in 0.038912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.009254 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle2_Add.mat
+  artifactKey: Guid(f2af1438c1e8db744a072356bc43a6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle2_Add.mat using Guid(f2af1438c1e8db744a072356bc43a6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7a575d569a596071d363ee20453fe0') in 0.007231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.558485 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Hit_Random.mat
+  artifactKey: Guid(d89b04364b40d1f4cbd63e9feec0a87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Hit_Random.mat using Guid(d89b04364b40d1f4cbd63e9feec0a87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc346f6a6b787f3fb629e51052714eda') in 0.045359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.971595 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Splash.mat
+  artifactKey: Guid(d1e126ae7d864da41a0e5600c24ab659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Splash.mat using Guid(d1e126ae7d864da41a0e5600c24ab659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8aed2ed4df667c7efd3531a85cf0ac') in 0.006713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.324757 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Zap.mat
+  artifactKey: Guid(28bf3195070d38e4c928ac495f8ef3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Zap.mat using Guid(28bf3195070d38e4c928ac495f8ef3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac867ff3a2663904ad4afb8e2b19dad2') in 0.026837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.213494 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Wooosh.mat
+  artifactKey: Guid(3d7b9a600284b8f42a636266e8bc5619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Wooosh.mat using Guid(3d7b9a600284b8f42a636266e8bc5619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7843a2b9761c65a5e5193bef0d8483') in 0.007007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.639706 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Poof.mat
+  artifactKey: Guid(bfe3a767a3d8402419eca2366f04b052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Poof.mat using Guid(bfe3a767a3d8402419eca2366f04b052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9790aae415927f3928cd6a83c427e49d') in 0.007280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.253350 seconds.
+  path: Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Boom.mat
+  artifactKey: Guid(9c7dc37f1ecca9b479b3fbf143b5fd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Texts/CFXM_Text_Boom.mat using Guid(9c7dc37f1ecca9b479b3fbf143b5fd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9a6d97c4c551595315fa6ad6ab0fa4') in 0.006735 seconds 
