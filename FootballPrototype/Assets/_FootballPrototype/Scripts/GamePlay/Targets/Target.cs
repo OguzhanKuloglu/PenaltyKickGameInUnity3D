@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public abstract class Target : MonoBehaviour
 {
 
     public Transform m_transform;
-    public ParticleSystem m_particleSystem;
     public TargetTypes m_targetType;
+
+    [SerializeField]
+    private float m_AnimScaleDownTime = 0.2f;
 
     public int m_point;
 
@@ -19,5 +22,10 @@ public abstract class Target : MonoBehaviour
         m_transform = GetComponent<Transform>();
     }
 
+    public virtual void AnimTarget()
+    {
+         m_transform.DOScale(Vector3.zero, m_AnimScaleDownTime).SetEase(Ease.Flash);
+    }
 
+    
 }

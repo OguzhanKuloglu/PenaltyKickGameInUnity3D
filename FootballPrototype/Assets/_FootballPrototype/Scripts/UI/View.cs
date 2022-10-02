@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
 public class View<T> : Singleton<T> where T : MonoBehaviour
 {
     public float m_FadeInDuration = 0.3f;
@@ -14,7 +15,6 @@ public class View<T> : Singleton<T> where T : MonoBehaviour
     // Cache
     protected GameManager m_GameManager;
 
-    // Buffers
     private float m_StartTime;
     private float m_Duration;
     private bool m_InTransition;

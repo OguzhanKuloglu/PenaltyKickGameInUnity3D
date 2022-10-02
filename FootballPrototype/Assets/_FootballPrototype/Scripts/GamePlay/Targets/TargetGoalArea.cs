@@ -8,7 +8,6 @@ public class TargetGoalArea : Target
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger enter : " + other.tag);
         if (other.CompareTag(TriggerTypes.Player.ToString()))
         {
             OnBallTouch();

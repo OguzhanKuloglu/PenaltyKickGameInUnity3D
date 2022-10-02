@@ -20,6 +20,15 @@ public class EventManager
     }
 
 
+    public delegate void OnShoot();
+    public static event OnShoot OnPlayerShoot;
+
+    public static void PlayerShoot()
+    {
+        OnPlayerShoot?.Invoke();
+    }
+
+
 
     #endregion
 

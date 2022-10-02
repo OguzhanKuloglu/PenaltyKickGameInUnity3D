@@ -3,8 +3,7 @@ public enum GamePhase
 {
     MAIN_MENU,
     GAME,
-    SUCCESS_END,
-    FAIL_END
+    GAME_END
 }
 
 public enum LevelPhase
